@@ -75,39 +75,39 @@ Here’s a list of basic CI/CD and DevOps terminologies to get you started:
 
 # TOOLS FOR DEVSECOPS:
 
-DEVELOPMENT PHASE:
+## DEVELOPMENT PHASE:
 
 Tools: 
 
-Git Secrets
-Security plugins (IntelliJ)
-trufflehog
+1. Git Secrets
+2. Security plugins (IntelliJ)
+3. trufflehog
 
-SECURITY PHASE:
-
-Tools:
-Sonarqube: code quality
-Fortify, veracode, checkmarx: SAST security tools
-Owasp ZAP, Webinspect, Veracode, DAST, Acunefix : DAST tools
-Bridgecrew, Synk: Infrastructure as Code security tools
-Aqua, Qualys, Prismacloud: Container security
-
-OPERATIONS PHASE:
+## SECURITY PHASE:
 
 Tools:
+1. Sonarqube: code quality
+2. Fortify, veracode, checkmarx: SAST security tools
+3. Owasp ZAP, Webinspect, Veracode, DAST, Acunefix : DAST tools
+4. Bridgecrew, Synk: Infrastructure as Code security tools
+5. Aqua, Qualys, Prismacloud: Container security
 
-Jenkins, AWS, GCP cloudbuild, Azure Devops, Github actions, Gitlab: Build pipeline tools
-AQUA, Bridgecrew: CSPM tools
-AQUA, AWS Native registry scanning: Container registry scanning tools
-Chef Inspect, Nessus: Infrastructure scanning tool
-AWS security hub, azure defender: Cloud security tools
+## OPERATIONS PHASE:
+
+Tools:
+
+1.  Jenkins, AWS, GCP cloudbuild, Azure Devops, Github actions, Gitlab: Build pipeline tools
+2. AQUA, Bridgecrew: CSPM tools
+3. AQUA, AWS Native registry scanning: Container registry scanning tools
+4. Chef Inspect, Nessus: Infrastructure scanning tool
+5. AWS security hub, azure defender: Cloud security tools
 
 
 # DEVSECOPS IN AZURE
 
-Azure source code repos (private repos)
-azure-pipeline.yml file
-azure pipelines
-build artifacts
+1. Azure source code repos (private repos)
+2. azure-pipeline.yml file
+3. azure pipelines
+4. build artifacts
 
 
