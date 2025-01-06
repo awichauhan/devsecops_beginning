@@ -102,6 +102,20 @@ Tools:
 4. Chef Inspect, Nessus: Infrastructure scanning tool
 5. AWS security hub, azure defender: Cloud security tools
 
+## DEVELOPMENT METHODOLOGIES
+
+1. Waterfall model
+2. Agile methodology
+
+## AGILE METHODOLOGIES
+
+1. Scrum process
+
+- User stories
+- Product backlog (main product features)
+- Sprint backlog (first 10 important items of features)
+- 2-4 weeks of sprint
+- Sprint review
 
 # DEVSECOPS IN AZURE
 
