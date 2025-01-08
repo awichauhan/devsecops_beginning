@@ -111,11 +111,20 @@ Tools:
 
 1. Scrum process
 
-- User stories
+- User stories (User requirements for the product/app)
 - Product backlog (main product features)
 - Sprint backlog (first 10 important items of features)
 - 2-4 weeks of sprint
 - Sprint review
+
+## DEVELOPMENT AND OPERATIONS
+
+- Developers build a feature after testing it.
+- Operations team deploy those features in prod. They are responsible for the uptime of applications.
+- However, both team generally work in isolation.There is not much connect and communication between them.
+
+- DevOps team is to build a collaboration between Development (developers) and Operations.
+
 
 # DEVSECOPS IN AZURE
 
