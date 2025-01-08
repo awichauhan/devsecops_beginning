@@ -1,0 +1,21 @@
+trigger:
+branches:
+include:
+  - master
+
+stages:
+  - stage: Build
+    displayName: Building Azure DevOps App
+    pool:
+    vmImage: "ubuntu-latest"
+    steps:
+      - script: |
+        mvn clean package
+
+  - stage: Test
+    displayName: Testing Azure DevOps App
+    pool:
+    vmImage: "ubuntu-latest"
+    steps:
+      - script: |
+        mvn clean test
